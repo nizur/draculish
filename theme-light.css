@@ -1,0 +1,62 @@
+/* Light theme-specific variables */
+.light-theme,
+html[data-theme="light"] {
+    /* Base background colors */
+    --ls-primary-background-color: var(--white);
+    --ls-secondary-background-color: var(--white-hover);
+    --ls-tertiary-background-color: var(--ash);
+    --ls-quaternary-background-color: var(--ash);
+    --ls-quinary-background-color: var(--dark-knight);
+    
+    /* Element background colors */
+    --ls-a-chosen-bg: var(--ash);
+    --ls-block-properties-background-color: var(--ash);
+    --ls-page-blockquote-bg-color: var(--ash);
+    --ls-right-sidebar-code-bg-color: var(--ash);
+    --ls-scrollbar-background-color: var(--charcoal);
+    --ls-search-background-color: var(--charcoal);
+    --ls-selection-background-color: var(--haze);
+    --ls-slide-background-color: var(--charcoal);
+    --ls-table-tr-even-background-color: var(--ash);
+    
+    /* Active colors */
+    --ls-active-primary-color: var(--white);
+    --ls-active-secondary-color: var(--white);
+    
+    /* Border colors */
+    --ls-block-bullet-border-color: var(--gunpowder);
+    --ls-border-color: var(--haze);
+    --ls-page-blockquote-border-color: var(--yellow);
+    --ls-page-checkbox-border-color: var(--haze);
+    --ls-secondary-border-color: var(--haze);
+    
+    /* Element colors */
+    --ls-block-bullet-color: var(--white);
+    --ls-block-highlight-color: var(--gunpowder);
+    --ls-block-ref-link-text-color: var(--haze);
+    --ls-guideline-color: var(--ls-border-color);
+    --ls-head-text-color: var(--white);
+    --ls-icon-color: var(--white-hover);
+    --ls-link-ref-text-color: var(--pink);
+    --ls-link-ref-text-hover-color: var(--pink-hover);
+    --ls-link-text-color: var(--pink);
+    --ls-link-text-hover-color: var(--pink-hover);
+    --ls-menu-hover-color: var(--ash);
+    --ls-page-blockquote-color: var(--white);
+    --ls-page-checkbox-color: transparent;
+    --ls-page-inline-code-bg-color: var(--charcoal);
+    --ls-page-inline-code-color: var(--orange);
+    --ls-primary-text-color: var(--white);
+    --ls-scrollbar-foreground-color: var(--dark-knight);
+    --ls-scrollbar-thumb-hover-color: var(--ash);
+    --ls-search-icon-color: var(--white-hover);
+    --ls-secondary-text-color: var(--white-hover);
+    --ls-tag-text-color: var(--purple);
+    --ls-tag-text-hover-color: var(--purple-hover);
+    --ls-title-text-color: var(--white);
+    
+    /* Background patterns */
+    --ls-svg-bg-1: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%2321222c' stroke-width='3.9' stroke-opacity='0.78'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+    --ls-svg-bg-2: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23343746' stroke-width='2.8'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%2344475a'%3E%3Ccircle cx='769' cy='229' r='8'/%3E%3Ccircle cx='539' cy='269' r='8'/%3E%3Ccircle cx='603' cy='493' r='8'/%3E%3Ccircle cx='731' cy='737' r='8'/%3E%3Ccircle cx='520' cy='660' r='8'/%3E%3Ccircle cx='309' cy='538' r='8'/%3E%3Ccircle cx='295' cy='764' r='8'/%3E%3Ccircle cx='40' cy='599' r='8'/%3E%3Ccircle cx='102' cy='382' r='8'/%3E%3Ccircle cx='127' cy='80' r='8'/%3E%3Ccircle cx='370' cy='105' r='8'/%3E%3Ccircle cx='578' cy='42' r='8'/%3E%3Ccircle cx='237' cy='261' r='8'/%3E%3Ccircle cx='390' cy='382' r='8'/%3E%3C/g%3E%3C/svg%3E");
+    --ls-svg-bg-3: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iMTAwIiBmaWxsPSIjMjgyYTM2Ij48L3JlY3Q+CjxwYXRoIGQ9Ik0yOCA2NkwwIDUwTDAgMTZMMjggMEw1NiAxNkw1NiA1MEwyOCA2NkwyOCAxMDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzIxMjIyYyIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+CjxwYXRoIGQ9Ik0yOCAwTDI4IDM0TDAgNTBMMCA4NEwyOCAxMDBMNTYgODRMNTYgNTBMMjggMzQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzIxMjIyYyIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+Cjwvc3ZnPg==");
+}
