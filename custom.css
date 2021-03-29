@@ -15,7 +15,7 @@ body {
 }
 
 i {
-    color: var(--yellow);
+    color: var(--ls-italic-text-color);
 }
 
 b {
@@ -23,7 +23,7 @@ b {
 }
 
 mark {
-    background-color: var(--yellow);
+    background-color: var(--ls-italic-text-color);
 }
 
 .bg-orange-400 {
@@ -42,6 +42,7 @@ mark {
     border: 1px solid var(--ls-page-checkbox-border-color) !important;
     border-radius: var(--ls-border-radius-low) !important;
 }
+
 h1.title,
 .ls-block h1,
 .ls-block h2,
@@ -237,7 +238,10 @@ EXTERNAL LINKS
     width: 14px;
 }
 
-.external-link:hover,
+.external-link:hover {
+    color: var(--ls-external-link-hover-color);
+}
+
 .external-link:hover:after {
     background-color: var(--ls-external-link-hover-color);
 }

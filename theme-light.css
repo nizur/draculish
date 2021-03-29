@@ -27,12 +27,12 @@ html[data-theme="light"] {
     /* Border colors */
     --ls-block-bullet-border-color: var(--gunpowder);
     --ls-border-color: var(--haze);
-    --ls-page-blockquote-border-color: var(--yellow);
+    --ls-page-blockquote-border-color: var(--carrot);
     --ls-page-checkbox-border-color: var(--haze);
     --ls-secondary-border-color: var(--haze);
     
     /* Element colors */
-    --ls-block-bullet-color: var(--white);
+    --ls-block-bullet-color: var(--haze);
     --ls-block-highlight-color: var(--gunpowder);
     --ls-block-ref-link-text-color: var(--haze);
     --ls-external-link-color: var(--wet-asphalt);
@@ -40,6 +40,7 @@ html[data-theme="light"] {
     --ls-guideline-color: var(--ls-border-color);
     --ls-head-text-color: var(--white);
     --ls-icon-color: var(--white-hover);
+    --ls-italic-text-color: var(--carrot);
     --ls-link-ref-text-color: var(--pink);
     --ls-link-ref-text-hover-color: var(--pink-hover);
     --ls-link-text-color: var(--pink);
@@ -56,8 +57,8 @@ html[data-theme="light"] {
     --ls-scrollbar-thumb-hover-color: var(--ash);
     --ls-search-icon-color: var(--white-hover);
     --ls-secondary-text-color: var(--white-hover);
-    --ls-tag-text-color: var(--purple);
-    --ls-tag-text-hover-color: var(--purple-hover);
+    --ls-tag-text-color: var(--white);
+    --ls-tag-text-hover-color: var(--white-hover);
     --ls-title-text-color: var(--white);
     
     /* Background patterns */

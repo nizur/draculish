@@ -40,6 +40,7 @@ html[data-theme="dark"] {
     --ls-guideline-color: var(--ls-border-color);
     --ls-head-text-color: var(--white);
     --ls-icon-color: var(--white-hover);
+    --ls-italic-text-color: var(--yellow);
     --ls-link-ref-text-color: var(--pink);
     --ls-link-ref-text-hover-color: var(--pink-hover);
     --ls-link-text-color: var(--pink);
