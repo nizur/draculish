@@ -346,12 +346,12 @@ MARKER SWITCHES
 */
 
 .marker-switch {
-    color: var(--purple);
+    color: var(--ls-marker-switch-color);
     margin-top: -1px;
 }
 
 .marker-switch:hover {
-    color: var(--purple-hover);
+    color: var(--ls-marker-switch-hover-color);
 }
 
 div.now:before, div.later:before, div.todo:before, div.doing:before {

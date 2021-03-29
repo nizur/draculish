@@ -45,6 +45,7 @@ html[data-theme="dark"] {
     --ls-link-text-color: var(--pink);
     --ls-link-text-hover-color: var(--pink-hover);
     --ls-marker-switch-color: var(--purple);
+    --ls-marker-switch-hover-color: var(--purple-hover);
     --ls-menu-hover-color: var(--ash);
     --ls-page-blockquote-color: var(--white);
     --ls-page-checkbox-color: transparent;
