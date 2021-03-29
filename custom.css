@@ -215,7 +215,7 @@ EXTERNAL LINKS
 }
 
 .external-link:after {
-    background-color: var(--cyan);
+    background-color: var(--ls-external-link-color);
     bottom: -2px;
     content: '';
     display: inline-block;
@@ -239,7 +239,7 @@ EXTERNAL LINKS
 
 .external-link:hover,
 .external-link:hover:after {
-    background-color: var(--cyan-hover);
+    background-color: var(--ls-external-link-color-hover);
 }
 
 /*
