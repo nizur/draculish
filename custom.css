@@ -64,7 +64,7 @@ BACKGROUND PATTERN
 */
 
 #app-container {
-    background-color: var(--charcoal);
+    background-color: var(--ls-primary-background-color);
     background-image: var(--ls-svg-bg-1);
 }
 
@@ -101,7 +101,7 @@ FIX INPUT TEXT COLOR
 */
 
 .ui__modal input[type="text"], input.form-input {
-    color: var(--white) !important;
+    color: var(--ls-primary-background-color) !important;
 }
 
 /*
@@ -111,7 +111,7 @@ BLOCK EDITOR HIGHLIGHT
 */
 
 .editor-inner textarea {
-    background-color: var(--ash);
+    background-color: var(--ls-tertiary-background-color);
     border-radius: var(--ls-border-radius-low);
     padding: 3px 5px;
 }

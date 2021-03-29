@@ -4,9 +4,9 @@ html[data-theme="light"] {
     /* Base background colors */
     --ls-primary-background-color: var(--white);
     --ls-secondary-background-color: var(--white-hover);
-    --ls-tertiary-background-color: var(--ash);
-    --ls-quaternary-background-color: var(--ash);
-    --ls-quinary-background-color: var(--dark-knight);
+    --ls-tertiary-background-color: var(--clouds);
+    --ls-quaternary-background-color: var(--silver);
+    --ls-quinary-background-color: var(--concrete);
     
     /* Element background colors */
     --ls-a-chosen-bg: var(--ash);
