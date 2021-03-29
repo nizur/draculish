@@ -1,11 +1,9 @@
-
 /*
 ==================================================
 GLOBAL VARIABLES
 ==================================================
-TODO: Get rid of redundant variables
-TODO: Add global colors to theme color variables
 */
+
 :root {
   /* Colors */
   --white: rgba(248,248,242,1);
