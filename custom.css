@@ -239,7 +239,7 @@ EXTERNAL LINKS
 
 .external-link:hover,
 .external-link:hover:after {
-    background-color: var(--ls-external-link-color-hover);
+    background-color: var(--ls-external-link-hover-color);
 }
 
 /*

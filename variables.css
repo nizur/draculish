@@ -8,9 +8,9 @@ TODO: Add global colors to theme color variables
 */
 :root {
   /* Colors */
-  --white: rgba(248,248,242,1);
+  --white: #f8f8f2ff;
   --white-hover: rgba(248,248,242,0.50);
-  --clouds: rgba(236,240,241,1);
+  --clouds: #ecf0f1ff;
   --silver: rgba(189,195,199,1);
   --concrete: rgba(149,165,166,1);
   --asbestos: rgba(127,140,141,1);

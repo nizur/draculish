@@ -36,7 +36,7 @@ html[data-theme="dark"] {
     --ls-block-highlight-color: var(--gunpowder);
     --ls-block-ref-link-text-color: var(--haze);
     --ls-external-link-color: var(--cyan);
-    --ls-external-link-color-hover: var(--cyan-hover);
+    --ls-external-link-hover-color: var(--cyan-hover);
     --ls-guideline-color: var(--ls-border-color);
     --ls-head-text-color: var(--white);
     --ls-icon-color: var(--white-hover);
