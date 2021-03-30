@@ -4,7 +4,8 @@
   "description": "A theme for Logseq",
   "main": "src/index.scss",
   "scripts": {
-    "build": "sass src/index.scss dist/custom.css --style compressed",
+    "build:sandbox": "sass src/index.scss dist/custom.css",
+    "build:production": "sass src/index.scss dist/custom.css --style compressed",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "sass --watch src/index.scss dist/custom.css"
   },

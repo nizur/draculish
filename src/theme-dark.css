@@ -32,6 +32,9 @@ html[data-theme="dark"] {
     --ls-secondary-border-color: var(--haze);
     
     /* Element colors */
+    --ls-admonition-icon-color: var(--haze);
+    --ls-admonition-icon-caution-color: var(--sunflower);
+    --ls-admonition-icon-warning-color: var(--red);
     --ls-block-bullet-color: var(--white);
     --ls-block-highlight-color: var(--gunpowder);
     --ls-block-ref-link-text-color: var(--haze);
@@ -39,6 +42,7 @@ html[data-theme="dark"] {
     --ls-external-link-hover-color: var(--cyan-hover);
     --ls-guideline-color: var(--ls-border-color);
     --ls-head-text-color: var(--white);
+    --ls-highlight-text-color: var(--sunflower);
     --ls-icon-color: var(--white-hover);
     --ls-italic-text-color: var(--yellow);
     --ls-link-ref-text-color: var(--pink);

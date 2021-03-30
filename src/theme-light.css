@@ -1,3 +1,9 @@
+/* TODO: Highlighted text color hard to read */
+/* TODO: Inline code hard to read */
+/* TODO: Code editor when viewing MD of a page is unusable */
+/* TODO: Scheduled/deadline form input text is unusable */
+/* TODO: Possible? Slideshow slide content is a bit wonky */
+
 /* Light theme-specific variables */
 .light-theme,
 html[data-theme="light"] {
@@ -13,7 +19,7 @@ html[data-theme="light"] {
     --ls-block-properties-background-color: var(--ash);
     --ls-page-blockquote-bg-color: var(--ash);
     --ls-right-sidebar-code-bg-color: var(--ash);
-    --ls-scrollbar-background-color: var(--charcoal);
+    --ls-scrollbar-background-color: var(--silver);
     --ls-search-background-color: var(--charcoal);
     --ls-selection-background-color: var(--haze);
     --ls-slide-background-color: var(--charcoal);
@@ -21,8 +27,8 @@ html[data-theme="light"] {
     --ls-tag-background-color: var(--wet-asphalt);
     
     /* Active colors */
-    --ls-active-primary-color: var(--white);
-    --ls-active-secondary-color: var(--white);
+    --ls-active-primary-color: var(--charcoal);
+    --ls-active-secondary-color: var(--charcoal);
     
     /* Border colors */
     --ls-block-bullet-border-color: var(--gunpowder);
@@ -32,15 +38,20 @@ html[data-theme="light"] {
     --ls-secondary-border-color: var(--haze);
     
     /* Element colors */
+    --ls-admonition-icon-color: var(--peter-river);
+    --ls-admonition-icon-caution-color: var(--sunflower);
+    --ls-admonition-icon-warning-color: var(--red);
     --ls-block-bullet-color: var(--haze);
     --ls-block-highlight-color: var(--gunpowder);
     --ls-block-ref-link-text-color: var(--haze);
-    --ls-external-link-color: var(--wet-asphalt);
-    --ls-external-link-hover-color: var(--midnight-blue);
+    --ls-external-link-color: var(--pink);
+    --ls-external-link-hover-color: var(--pink-hover);
     --ls-guideline-color: var(--ls-border-color);
     --ls-head-text-color: var(--white);
+    --ls-highlight-text-color: var(--sunflower);
     --ls-icon-color: var(--white-hover);
-    --ls-italic-text-color: var(--pumpkin);
+    --ls-italic-text-color: var(--midnight-blue);
+    /* TODO: Do we want ref links and external link colors to match? */
     --ls-link-ref-text-color: var(--pink);
     --ls-link-ref-text-hover-color: var(--pink-hover);
     --ls-link-text-color: var(--pink);
@@ -52,9 +63,9 @@ html[data-theme="light"] {
     --ls-page-checkbox-color: var(--haze);
     --ls-page-inline-code-bg-color: var(--charcoal);
     --ls-page-inline-code-color: var(--orange);
-    --ls-primary-text-color: var(--white);
-    --ls-scrollbar-foreground-color: var(--dark-knight);
-    --ls-scrollbar-thumb-hover-color: var(--ash);
+    --ls-primary-text-color: var(--charcoal);
+    --ls-scrollbar-foreground-color: var(--asbestos);
+    --ls-scrollbar-thumb-hover-color: var(--concrete);
     --ls-search-icon-color: var(--white-hover);
     --ls-secondary-text-color: var(--white-hover);
     --ls-tag-text-color: var(--white);

@@ -1,0 +1,14 @@
+.admonition-icon {
+  svg {
+    color: var(--ls-admonition-icon-color);
+    filter: none;
+
+    &.caution {
+      color: var(--ls-admonition-icon-caution-color);
+    }
+
+    &.warning {
+      color: var(--ls-admonition-icon-warning-color);
+    }
+  }
+}

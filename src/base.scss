@@ -8,22 +8,6 @@ body {
     line-height: var(--ls-font-line-height);
 }
 
-mark {
-    background-color: var(--ls-italic-text-color);
-}
-
-.bg-orange-400 {
-    background-color: var(--orange);
-}
-
-.bg-green-600 {
-    background-color: var(--green);
-}
-
-.bg-red-500 {
-    background-color: var(--red);
-}
-
 /*
 ==================================================
 TEXT FORMATTING
@@ -38,13 +22,37 @@ b {
     color: var(--orange);
 }
 
+/* Highlighted */
+mark {
+    background-color: var(--ls-highlight-text-color);
+}
+
 /*
 ==================================================
 FIX INPUT TEXT COLOR
 ==================================================
+TODO: This is broken on light theme
 */
 
 .ui__modal input[type="text"],
 input.form-input {
     color: var(--ls-primary-background-color) !important;
+}
+
+/*
+==================================================
+BACKGROUND COLORS
+==================================================
+*/
+
+.bg-orange-400 {
+    background-color: var(--orange);
+}
+
+.bg-green-600 {
+    background-color: var(--green);
+}
+
+.bg-red-500 {
+    background-color: var(--red);
 }
