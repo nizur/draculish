@@ -1,0 +1,50 @@
+/* TODO: Remove direct references to color variables */
+html,
+body {
+    background-color: var(--ls-primary-background-color);
+    font-size: var(--ls-page-text-size);
+    font-weight: var(--ls-font-weight);
+    letter-spacing: var(--ls-font-letter-spacing);
+    line-height: var(--ls-font-line-height);
+}
+
+mark {
+    background-color: var(--ls-italic-text-color);
+}
+
+.bg-orange-400 {
+    background-color: var(--orange);
+}
+
+.bg-green-600 {
+    background-color: var(--green);
+}
+
+.bg-red-500 {
+    background-color: var(--red);
+}
+
+/*
+==================================================
+TEXT FORMATTING
+==================================================
+*/
+
+i {
+    color: var(--ls-italic-text-color);
+}
+
+b {
+    color: var(--orange);
+}
+
+/*
+==================================================
+FIX INPUT TEXT COLOR
+==================================================
+*/
+
+.ui__modal input[type="text"],
+input.form-input {
+    color: var(--ls-primary-background-color) !important;
+}

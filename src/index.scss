@@ -1,6 +1,7 @@
 @use "variables.css";
 @use "theme-dark.css";
 @use "theme-light.css";
+@use "base";
 @use "background-pattern";
 @use "sidebar";
 @use "pages";
@@ -15,54 +16,3 @@
 @use "code";
 
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
-
-/* TODO: Remove direct references to color variables */
-html,
-body {
-    background-color: var(--ls-primary-background-color);
-    font-size: var(--ls-page-text-size);
-    font-weight: var(--ls-font-weight);
-    letter-spacing: var(--ls-font-letter-spacing);
-    line-height: var(--ls-font-line-height);
-}
-
-mark {
-    background-color: var(--ls-italic-text-color);
-}
-
-.bg-orange-400 {
-    background-color: var(--orange);
-}
-
-.bg-green-600 {
-    background-color: var(--green);
-}
-
-.bg-red-500 {
-    background-color: var(--red);
-}
-
-/*
-==================================================
-TEXT FORMATTING
-==================================================
-*/
-
-i {
-    color: var(--ls-italic-text-color);
-}
-
-b {
-    color: var(--orange);
-}
-
-/*
-==================================================
-FIX INPUT TEXT COLOR
-==================================================
-*/
-
-.ui__modal input[type="text"],
-input.form-input {
-    color: var(--ls-primary-background-color) !important;
-}
