@@ -49,7 +49,7 @@ html[data-theme="light"] {
     --ls-marker-switch-hover-color: var(--amethyst);
     --ls-menu-hover-color: var(--ash);
     --ls-page-blockquote-color: var(--white);
-    --ls-page-checkbox-color: transparent;
+    --ls-page-checkbox-color: var(--haze);
     --ls-page-inline-code-bg-color: var(--charcoal);
     --ls-page-inline-code-color: var(--orange);
     --ls-primary-text-color: var(--white);
