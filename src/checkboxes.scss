@@ -1,0 +1,20 @@
+/*
+==================================================
+CHECKBOXES
+==================================================
+*/
+
+.form-checkbox {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid var(--ls-page-checkbox-border-color) !important;
+  border-radius: var(--ls-border-radius-tiny);
+  display: inline-flex;
+  height: 1rem;
+  justify-content: center;
+  width: 1rem;
+}
+
+.form-checkbox.checked {
+  background-color: var(--ls-page-checkbox-border-color);
+}

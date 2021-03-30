@@ -1,0 +1,29 @@
+{
+  "name": "draculish",
+  "version": "0.0.1",
+  "description": "A theme for Logseq",
+  "main": "src/index.scss",
+  "scripts": {
+    "build": "sass src/index.scss dist/custom.css --style compressed",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass --watch src/index.scss dist/custom.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nizur/draculish.git"
+  },
+  "keywords": [
+    "css",
+    "theme",
+    "logseq"
+  ],
+  "author": "Chris Ruzin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nizur/draculish/issues"
+  },
+  "homepage": "https://github.com/nizur/draculish#readme",
+  "devDependencies": {
+    "sass": "^1.32.8"
+  }
+}

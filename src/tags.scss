@@ -1,0 +1,74 @@
+/*
+==================================================
+TAGS
+- Styles all tags
+- Adds colors to some specific tags
+==================================================
+*/
+
+.tag[data-ref] {
+  align-items: center;
+  background: var(--ls-tag-background-color);
+  border-radius: 1rem 0.4rem 0.4rem 1rem;
+  color: var(--ls-primary-background-color);
+  display: inline-flex;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 0.8rem;
+  padding: 0.2rem 0.3rem;
+  text-transform: uppercase;
+  transition: .3s;
+  white-space: nowrap;
+}
+
+.tag[data-ref]:hover {
+  filter: grayscale(25%) !important;
+}
+
+.tag[data-ref]:before {
+  background-color: var(--ls-primary-background-color);
+  border-radius: 50%;
+  content: '';
+  display: inline-block;
+  height: 0.6rem;
+  line-height: 0.8rem;
+  margin-right: 0.3rem;
+  width: 0.6rem;
+}
+
+.tag[data-ref="Permanent"] {
+  background-color: var(--nephritis) !important;
+}
+
+.tag[data-ref="Literature"] {
+  background-color: var(--amethyst) !important;
+}
+
+.tag[data-ref="Fleeting"] {
+  background-color: var(--pink) !important;
+}
+
+.tag[data-ref="Miscellaneous"] {
+  background-color: var(--peter-river) !important;
+}
+
+.tag[data-ref="Journal"] {
+  background-color: var(--turquoise) !important;
+}
+
+.tag[data-ref="Task"] {
+  background-color: var(--orange) !important;
+}
+
+.tag[data-ref="Project"] {
+  background-color: var(--carrot) !important;
+}
+
+.tag[data-ref="Event"] {
+  background-color: var(--pumpkin) !important;
+}
+
+.tag[data-ref="WIP"] {
+  background-color: var(--sunflower) !important;
+}

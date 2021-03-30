@@ -1,0 +1,14 @@
+/*
+==================================================
+BACKGROUND PATTERN
+==================================================
+*/
+
+#app-container {
+    background-color: var(--ls-primary-background-color);
+    background-image: var(--ls-svg-bg-2);
+}
+
+#head, #main-content {
+    background-color: transparent;
+}

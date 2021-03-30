@@ -1,0 +1,42 @@
+/*
+==================================================
+COLORFUL INDENTATION
+==================================================
+*/
+
+.block-children {
+  border-left: 0;
+}
+
+.block-children [level] {
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+
+.block-children [level="3"] {
+  border-left-color: var(--ind-lvl-3-pink);
+}
+
+.block-children [level="4"] {
+  border-left-color: var(--ind-lvl-4-pink);
+}
+
+.block-children [level="5"] {
+  border-left-color: var(--ind-lvl-5-pink);
+}
+
+.block-children [level="6"] {
+  border-left-color: var(--ind-lvl-6-pink);
+}
+
+.block-children [level="7"] {
+  border-left-color: var(--ind-lvl-7-pink);
+}
+
+.block-children [level="8"] {
+  border-left-color: var(--ind-lvl-8-pink);
+}
+
+.block-children [level="9"] {
+  border-left-color: var(--ind-lvl-9-pink);
+}

@@ -1,0 +1,136 @@
+/*
+==================================================
+CODEMIRROR & INLINE CODE
+==================================================
+*/
+
+code, kbd, pre, samp, .CodeMirror {
+    background: var(--charcoal);
+    font: {
+        family: 'JetBrains Mono', monospace !important;
+        size: 12px;
+        variant: contextual slashed-zero;
+    }
+    line-height: 1.2rem;
+}
+
+.cm-s-default {
+    .CodeMirror, & .CodeMirror-gutters {
+        background-color: transparent;
+        border: none;
+        color: var(--white) !important;
+    }
+
+    .CodeMirror {
+        border: 5px solid var(--ash);
+    }
+
+    & .CodeMirror-gutters {
+        color: var(--charcoal);
+    }
+
+    & .CodeMirror-cursor {
+        border-left: solid thin var(--white);
+    }
+
+    & .CodeMirror-linenumber {
+        color: var(--haze);
+    }
+
+    & .CodeMirror-selected {
+        background: var(--darkest-ghost);
+    }
+
+    & .CodeMirror-line {
+        box-shadow: none;
+
+        &::selection,
+        & > span::selection,
+        & > span > span::selection {
+            background: var(--darkest-ghost);
+        }
+    }
+
+    & span.cm-comment {
+        color: var(--haze);
+    }
+
+    & span.cm-string,
+    & span.cm-string-2 {
+        color: var(--yellow);
+    }
+
+    & span.cm-number {
+        color: var(--purle);
+    }
+
+    & span.cm-variable {
+        color: var(--green);
+    }
+
+    & span.cm-variable-2 {
+        color: var(--white);
+    }
+
+    & span.cm-def {
+        color: var(--green);
+    }
+
+    & span.cm-operator {
+        color: var(--pink);
+    }
+
+    & span.cm-keyword {
+        color: var(--pink);
+    }
+
+    & span.cm-atom {
+        color: var(--purple);
+    }
+
+    & span.cm-meta {
+        color: var(--white);
+    }
+
+    & span.cm-tag {
+        color: var(--pink);
+    }
+
+    & span.cm-attribute {
+        color: var(--green);
+    }
+
+    & span.cm-qualifier {
+        color: var(--green);
+    }
+
+    & span.cm-property {
+        color: var(--cyan);
+    }
+
+    & span.cm-builtin {
+        color: var(--green);
+    }
+
+    & span.cm-variable-3,
+    & span.cm-type {
+        color: var(--orange);
+    }
+
+    & .CodeMirror-activeline-background {
+        background: var(--darkest-ghost);
+    }
+
+    & .CodeMirror-matchingbracket {
+        color: var(--white) !important;
+        text-decoration: underline;
+    }
+}
+
+.extensions__code-lang {
+    background: var(--ash);
+}
+
+#right-sidebar pre.CodeMirror-line {
+    background: transparent;
+}

@@ -1,0 +1,22 @@
+/*
+==================================================
+RIGHT SIDEBAR
+==================================================
+*/
+
+.cp__right-sidebar {
+    background-color: var(--ls-secondary-background-color, #d8e1e8);
+    border-radius: var(--ls-border-radius-medium) 0 0 0;
+    box-sizing: border-box;
+    height: 102vh; /*calc(100vh - 3rem);*/
+    opacity: .5;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-bottom: 48px;
+    position: fixed;
+    right: 0;
+    top: 3rem;
+    transition: width .3s, opacity .2s;
+    width: 0;
+    z-index: 9;
+}

@@ -1,0 +1,54 @@
+/*
+==================================================
+BLOCKS
+==================================================
+*/
+
+.ls-block { 
+  margin: -2px 0px -2px 1px !important; 
+  padding: 4px 1px !important;
+}
+
+/*
+==================================================
+BLOCK PROPERTIES
+==================================================
+*/
+
+.blocks-properties {
+  background-color: var(--ls-block-properties-background-color);
+  border-radius: var(--ls-border-radius-low);
+  opacity: 1;
+}
+
+.blocks-properties .my-1 b {
+  border-radius: var(--ls-border-radius-low);
+  color: var(--text-accent);
+  font-weight: 500;
+}
+
+/*
+==================================================
+BLOCK REFS
+- Turn off block ref underlining
+==================================================
+*/
+
+.block-ref {
+  border-bottom: none !important;
+  border-left: 2px dashed var(--orange);
+  display: inline-block;
+  padding-left: 0.5rem;
+}
+
+/*
+==================================================
+BLOCK EDITOR HIGHLIGHT
+==================================================
+*/
+
+.editor-inner textarea {
+  background-color: var(--ls-tertiary-background-color);
+  border-radius: var(--ls-border-radius-low);
+  padding: 3px 5px;
+}

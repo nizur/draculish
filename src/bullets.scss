@@ -1,0 +1,25 @@
+/*
+==================================================
+BULLETS
+==================================================
+*/
+
+.bullet-container.bullet-closed {
+  background-color: var(--pink-hover);
+}
+
+/*
+==================================================
+HIGHLIGHT CURRENT PATH
+- By cannibalox
+- option: (:hover) to (:focus-within)
+==================================================
+*/
+
+.ls-block .bullet {
+    background-color: var(--pink);
+}
+
+.ls-block:not(:hover) .bullet {
+    background-color: var(--ls-block-bullet-color);
+}
