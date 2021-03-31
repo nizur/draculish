@@ -36,7 +36,7 @@ TODO: This is broken on light theme
 
 .ui__modal input[type="text"],
 input.form-input {
-    color: var(--ls-primary-background-color) !important;
+    color: var(--ls-primary-text-color) !important;
 }
 
 /*
@@ -56,3 +56,14 @@ BACKGROUND COLORS
 .bg-red-500 {
     background-color: var(--red);
 }
+
+/*
+==================================================
+SEARCH FIELD
+==================================================
+*/
+
+// #search-field,
+// #search-field:focus {
+//     background-color: var(--ls-secondary-background-color);
+// }

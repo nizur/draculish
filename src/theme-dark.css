@@ -59,11 +59,43 @@ html[data-theme="dark"] {
     --ls-primary-text-color: var(--white);
     --ls-scrollbar-foreground-color: var(--dark-knight);
     --ls-scrollbar-thumb-hover-color: var(--ash);
+    /* --ls-search-background-color: var(--white-hover); */
     --ls-search-icon-color: var(--white-hover);
     --ls-secondary-text-color: var(--white-hover);
     --ls-tag-text-color: var(--purple);
     --ls-tag-text-hover-color: var(--purple-hover);
     --ls-title-text-color: var(--white);
+
+    /* CodeMirror */
+    --cm-active-line-background-color: var(--darkest-knight);
+    --cm-atom-text-color: var(--purple);
+    --cm-attribute-text-color: var(--green);
+    --cm-background-color: var(--charcoal);
+    --cm-base-text-color: var(--white);
+    --cm-builtin-text-color: var(--green);
+    --cm-border-color: var(--ash);
+    --cm-code-lang-background-color: var(--ash);
+    --cm-code-lang-text-color: var(--white);
+    --cm-comment-text-color: var(--asbestos);
+    --cm-cursor-color: var(--red);
+    --cm-def-text-color: var(--green);
+    --cm-gutter-background-color: var(--charcoal);
+    --cm-gutter-text-color: var(--white);
+    --cm-keyword-text-color: var(--pink);
+    --cm-line-text-color: var(--white);
+    --cm-line-number-text-color: var(--haze);
+    --cm-matching-bracket-color: var(--clouds);
+    --cm-meta-text-color: var(--white);
+    --cm-number-text-color: var(--purple);
+    --cm-operator-text-color: var(--pink);
+    --cm-property-text-color: var(--cyan);
+    --cm-qualifier-text-color: var(--green);
+    --cm-selected-color: var(--darkest-ghost);
+    --cm-string-text-color: var(--yellow);
+    --cm-tag-text-color: var(--pink);
+    --cm-variable-1-text-color: var(--green);
+    --cm-variable-2-text-color: var(--clouds);
+    --cm-variable-3-text-color: var(--orange);
     
     /* Background patterns */
     --ls-svg-bg-1: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%2321222c' stroke-width='3.9' stroke-opacity='0.78'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");

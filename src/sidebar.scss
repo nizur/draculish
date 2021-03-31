@@ -5,10 +5,10 @@ RIGHT SIDEBAR
 */
 
 .cp__right-sidebar {
-    background-color: var(--ls-secondary-background-color, #d8e1e8);
+    background-color: var(--ls-secondary-background-color);
     border-radius: var(--ls-border-radius-medium) 0 0 0;
     box-sizing: border-box;
-    height: 102vh; /*calc(100vh - 3rem);*/
+    height: 102vh;
     opacity: .5;
     overflow-x: hidden;
     overflow-y: auto;

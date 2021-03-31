@@ -4,7 +4,13 @@ PAGES
 ==================================================
 */
 
-.page-reference .bracket {
-  color: var(--ls-border-color);
-  opacity: 0.8;
+.page-reference {
+    &:hover {
+        background: transparent;
+    }
+
+    .bracket {
+        color: var(--ls-border-color);
+        opacity: 0.8;
+    }
 }

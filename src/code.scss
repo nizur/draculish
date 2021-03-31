@@ -5,8 +5,9 @@ CODEMIRROR & INLINE CODE
 ==================================================
 */
 
+:not(pre) > code,
 code, kbd, pre, samp, .CodeMirror {
-    background: var(--charcoal);
+    background: var(--cm-background-color);
     font: {
         family: 'JetBrains Mono', monospace !important;
         size: 12px;
@@ -15,31 +16,40 @@ code, kbd, pre, samp, .CodeMirror {
     line-height: 1.2rem;
 }
 
+:not(pre) > code {
+    background: var(--ls-quarternary-background-color);
+    color: var(--ls-active-secondary-color);
+}
+
 .cm-s-default {
+    * {
+        color: var(--cm-base-text-color);
+    }
+
     .CodeMirror, & .CodeMirror-gutters {
-        background-color: transparent;
+        background: transparent;
         border: none;
-        color: var(--white) !important;
+        color: var(--cm-gutter-text-color) !important;
     }
 
     .CodeMirror {
-        border: 5px solid var(--ash);
-    }
+        border: 5px solid var(--cm-border-color);
 
-    & .CodeMirror-gutters {
-        color: var(--charcoal);
+        & pre.CodeMirror-line, & pre.CodeMirror-line-like {
+            color: var(--cm-line-text-color);
+        }
     }
 
     & .CodeMirror-cursor {
-        border-left: solid thin var(--white);
+        border-left: solid thin var(--cm-cursor-color);
     }
 
     & .CodeMirror-linenumber {
-        color: var(--haze);
+        color: var(--cm-line-number-text-color);
     }
 
     & .CodeMirror-selected {
-        background: var(--darkest-ghost);
+        background: var(--cm-selected-color);
     }
 
     & .CodeMirror-line {
@@ -48,88 +58,90 @@ code, kbd, pre, samp, .CodeMirror {
         &::selection,
         & > span::selection,
         & > span > span::selection {
-            background: var(--darkest-ghost);
+            background: var(--cm-selected-color);
         }
     }
 
     & span.cm-comment {
-        color: var(--haze);
+        color: var(--cm-comment-text-color);
+        font-style: italic;
     }
 
     & span.cm-string,
     & span.cm-string-2 {
-        color: var(--yellow);
+        color: var(--cm-string-text-color);
     }
 
     & span.cm-number {
-        color: var(--purle);
+        color: var(--cm-number-text-color);
     }
 
     & span.cm-variable {
-        color: var(--green);
+        color: var(--cm-variable-1-text-color);
     }
 
     & span.cm-variable-2 {
-        color: var(--white);
+        color: var(--cm-variable-2-text-color);
     }
 
     & span.cm-def {
-        color: var(--green);
+        color: var(--cm-def-text-color);
     }
 
     & span.cm-operator {
-        color: var(--pink);
+        color: var(--cm-operator-text-color);
     }
 
     & span.cm-keyword {
-        color: var(--pink);
+        color: var(--cm-keyword-text-color);
     }
 
     & span.cm-atom {
-        color: var(--purple);
+        color: var(--cm-atom-text-color);
     }
 
     & span.cm-meta {
-        color: var(--white);
+        color: var(--cm-meta-text-color);
     }
 
     & span.cm-tag {
-        color: var(--pink);
+        color: var(--cm-tag-text-color);
     }
 
     & span.cm-attribute {
-        color: var(--green);
+        color: var(--cm-attribute-text-color);
     }
 
     & span.cm-qualifier {
-        color: var(--green);
+        color: var(--cm-qualifier-text-color);
     }
 
     & span.cm-property {
-        color: var(--cyan);
+        color: var(--cm-property-text-color);
     }
 
     & span.cm-builtin {
-        color: var(--green);
+        color: var(--cm-builtin-text-color);
     }
 
     & span.cm-variable-3,
     & span.cm-type {
-        color: var(--orange);
+        color: var(--cm-variable-3-text-color);
     }
 
     & .CodeMirror-activeline-background {
-        background: var(--darkest-ghost);
+        background: var(--cm-active-line-background-color);
     }
 
     & .CodeMirror-matchingbracket {
-        color: var(--white) !important;
+        color: var(--cm-matching-bracket-color) !important;
         text-decoration: underline;
     }
 }
 
 .extensions__code-lang {
-    background: var(--ash);
+    background: var(--cm-code-lang-background-color);
+    color: var(--cm-code-lang-text-color);
 }
 
 #right-sidebar pre.CodeMirror-line {
