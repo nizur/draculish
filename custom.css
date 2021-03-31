@@ -190,15 +190,15 @@ html[data-theme=light] {
   --ls-quaternary-background-color: var(--silver);
   --ls-quinary-background-color: var(--concrete);
   /* Element background colors */
-  --ls-a-chosen-bg: var(--ash);
-  --ls-block-properties-background-color: var(--ash);
-  --ls-page-blockquote-bg-color: var(--ash);
-  --ls-right-sidebar-code-bg-color: var(--ash);
+  --ls-a-chosen-bg: var(--silver);
+  --ls-block-properties-background-color: var(--concrete);
+  --ls-page-blockquote-bg-color: var(--concrete);
+  --ls-right-sidebar-code-bg-color: var(--concrete);
   --ls-scrollbar-background-color: var(--silver);
-  --ls-search-background-color: var(--charcoal);
-  --ls-selection-background-color: var(--haze);
-  --ls-slide-background-color: var(--charcoal);
-  --ls-table-tr-even-background-color: var(--ash);
+  --ls-search-background-color: var(--concrete);
+  --ls-selection-background-color: var(--concrete);
+  --ls-slide-background-color: var(--concrete);
+  --ls-table-tr-even-background-color: var(--concrete);
   --ls-tag-background-color: var(--wet-asphalt);
   /* Active colors */
   --ls-active-primary-color: var(--charcoal);
@@ -230,7 +230,7 @@ html[data-theme=light] {
   --ls-link-text-hover-color: var(--pink-hover);
   --ls-marker-switch-color: var(--wisteria);
   --ls-marker-switch-hover-color: var(--amethyst);
-  --ls-menu-hover-color: var(--ash);
+  --ls-menu-hover-color: var(--silver);
   --ls-page-blockquote-color: var(--white);
   --ls-page-checkbox-color: var(--haze);
   --ls-page-inline-code-bg-color: var(--charcoal);
