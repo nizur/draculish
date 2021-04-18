@@ -15,8 +15,11 @@ Copy the content of `custom.css` into `logseq/custom.css` in your notes repo if 
 
 #### Online install:
 
-- Paste this line to your `logseq/custom.css` file:
+- STABLE: This is updated once the unstable version is deemed releasable. Paste this line to your `logseq/custom.css` file:
   `@import url('https://raw.githack.com/nizur/draculish/master/custom.css');`
+
+- UNSTABLE: This is the version that is more frequently worked on and updated. There's a chance something might break. Paste this line to your `logseq/custom.css` file:
+  `@import url('https://raw.githack.com/nizur/draculish/master/dist/custom.css');`
 
 ## License
 
