@@ -1,14 +1,17 @@
 # Draculish for [Logseq](http://logseq.com)
 
-> A dark theme for [Logseq](http://logseq.com).
+> A dark/light theme for [Logseq](http://logseq.com).
 
-![Screenshot](./screenshot.png)
+![Screenshot](./screenshot-dark.png)
+![Screenshot](./screenshot-light.png)
+
+Special thanks to [DenaroCF](https://github.com/DenaroCF) for testing the theme.
 
 ## Install
 
 #### Offline install:
 
-<!-- Copy the content of `custom.css` into `logseq/custom.css` in your notes repo if you want to have the theme available without internet connection. -->
+Copy the content of `custom.css` into `logseq/custom.css` in your notes repo if you want to have the theme available without internet connection.
 
 #### Online install:
 
