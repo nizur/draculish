@@ -364,7 +364,7 @@ RIGHT SIDEBAR
   border-radius: var(--ls-border-radius-medium) 0 0 0;
   box-sizing: border-box;
   height: 102vh;
-  opacity: 0.5;
+  opacity: 0.95;
   overflow-x: hidden;
   overflow-y: auto;
   padding-bottom: 48px;
