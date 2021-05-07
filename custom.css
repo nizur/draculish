@@ -759,11 +759,11 @@ HIGHLIGHT CURRENT PATH
 - option: (:hover) to (:focus-within)
 ==================================================
 */
-.ls-block .bullet {
+.ls-block .bullet-container .bullet {
   background-color: var(--pink);
 }
 
-.ls-block:not(:hover) .bullet {
+.ls-block:not(:hover) .bullet-container .bullet {
   background-color: var(--ls-block-bullet-color);
 }
 
