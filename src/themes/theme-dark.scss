@@ -1,0 +1,135 @@
+@use '../main';
+
+/* Dark theme-specific variables */
+.dark-theme,
+html[data-theme="dark"] {
+    // Main BG
+    --ls-primary-background-color: var(--gunpowder);
+    --ls-secondary-background-color: var(--ash);
+    --ls-tertiary-background-color: var(--charcoal);
+    --ls-quaternary-background-color: var(--tar);
+
+    // Element BG
+    --ls-search-background-color: var(--ls-secondary-background-color);
+    --ls-block-properties-background-color: var(--ls-tertiary-background-color);
+
+    // Bullets
+    --ls-block-bullet-border-color: var(--concrete);
+    --ls-block-bullet-color: var(--ls-primary-text-color);
+
+    // Text
+    --ls-primary-text-color: var(--clouds);
+    --ls-title-text-color: var(--ls-primary-text-color);
+    --ls-link-text-color: #72866c;
+    --ls-link-text-hover-color: #949e91;
+    --ls-link-ref-text-color: #9f5d5d;
+    --ls-link-ref-text-hover-color: #743d3d;
+    --ls-tag-text-color: var(--ls-link-ref-text-color);
+    --ls-tag-text-hover-color: var(--ls-link-ref-text-hover-color);
+
+    // Misc
+    --ls-page-checkbox-color: #b0c3ad;
+    --ls-page-checkbox-border-color: var(--ls-page-checkbox-color);
+    --ls-page-blockquote-border-color: #7d9bb1;
+    --ls-guideline-color: rgba(46, 27, 5, 0.08);
+    --ls-block-highlight-color: #d4d1cd;
+    --ls-icon-color: #c1bdb7;
+    --color-level-1: var(--ls-secondary-background-color);
+    --color-level-2: var(--ls-tertiary-background-color);
+
+    /* Base background colors */
+    // --ls-primary-background-color: var(--charcoal);
+    // --ls-secondary-background-color: var(--tar);
+    // --ls-tertiary-background-color: var(--ash);
+    // --ls-quaternary-background-color: var(--ash);
+    // --ls-quinary-background-color: var(--dark-knight);
+    
+    // /* Element background colors */
+    // --ls-a-chosen-bg: var(--ash);
+    // --ls-block-properties-background-color: var(--ash);
+    // --ls-page-blockquote-bg-color: var(--ash);
+    // --ls-right-sidebar-code-bg-color: var(--ash);
+    // --ls-scrollbar-background-color: var(--charcoal);
+    // --ls-search-background-color: var(--charcoal);
+    // --ls-selection-background-color: var(--haze);
+    // --ls-slide-background-color: var(--charcoal);
+    // --ls-table-tr-even-background-color: var(--ash);
+    // --ls-tag-background-color: var(--clouds);
+    
+    // /* Active colors */
+    // --ls-active-primary-color: var(--white);
+    // --ls-active-secondary-color: var(--white);
+    
+    // /* Border colors */
+    // --ls-block-bullet-border-color: var(--gunpowder);
+    // --ls-border-color: var(--haze);
+    // --ls-page-blockquote-border-color: var(--yellow);
+    // --ls-page-checkbox-border-color: var(--haze);
+    // --ls-secondary-border-color: var(--haze);
+    
+    // /* Element colors */
+    // --ls-admonition-icon-color: var(--haze);
+    // --ls-admonition-icon-caution-color: var(--sunflower);
+    // --ls-admonition-icon-warning-color: var(--red);
+    // --ls-block-bullet-color: var(--white);
+    // --ls-block-highlight-color: var(--gunpowder);
+    // --ls-block-ref-link-text-color: var(--haze);
+    // --ls-external-link-color: var(--cyan);
+    // --ls-external-link-hover-color: var(--cyan-hover);
+    // --ls-guideline-color: var(--ls-border-color);
+    // --ls-head-text-color: var(--white);
+    // --ls-highlight-text-color: var(--sunflower);
+    // --ls-icon-color: var(--white-hover);
+    // --ls-italic-text-color: var(--yellow);
+    // --ls-link-ref-text-color: var(--pink);
+    // --ls-link-ref-text-hover-color: var(--pink-hover);
+    // --ls-link-text-color: var(--pink);
+    // --ls-link-text-hover-color: var(--pink-hover);
+    // --ls-marker-switch-color: var(--purple);
+    // --ls-marker-switch-hover-color: var(--purple-hover);
+    // --ls-menu-hover-color: var(--ash);
+    // --ls-page-blockquote-color: var(--white);
+    // --ls-page-checkbox-color: transparent;
+    // --ls-page-inline-code-bg-color: var(--charcoal);
+    // --ls-page-inline-code-color: var(--orange);
+    // --ls-primary-text-color: var(--white);
+    // --ls-scrollbar-foreground-color: var(--dark-knight);
+    // --ls-scrollbar-thumb-hover-color: var(--ash);
+    // /* --ls-search-background-color: var(--white-hover); */
+    // --ls-search-icon-color: var(--white-hover);
+    // --ls-secondary-text-color: var(--white-hover);
+    // --ls-tag-text-color: var(--purple);
+    // --ls-tag-text-hover-color: var(--purple-hover);
+    // --ls-title-text-color: var(--white);
+
+    // /* CodeMirror */
+    // --cm-active-line-background-color: var(--darkest-knight);
+    // --cm-atom-text-color: var(--purple);
+    // --cm-attribute-text-color: var(--green);
+    // --cm-background-color: var(--charcoal);
+    // --cm-base-text-color: var(--white);
+    // --cm-builtin-text-color: var(--green);
+    // --cm-border-color: var(--ash);
+    // --cm-code-lang-background-color: var(--ash);
+    // --cm-code-lang-text-color: var(--white);
+    // --cm-comment-text-color: var(--asbestos);
+    // --cm-cursor-color: var(--red);
+    // --cm-def-text-color: var(--green);
+    // --cm-gutter-background-color: var(--charcoal);
+    // --cm-gutter-text-color: var(--white);
+    // --cm-keyword-text-color: var(--pink);
+    // --cm-line-text-color: var(--white);
+    // --cm-line-number-text-color: var(--haze);
+    // --cm-matching-bracket-color: var(--clouds);
+    // --cm-meta-text-color: var(--white);
+    // --cm-number-text-color: var(--purple);
+    // --cm-operator-text-color: var(--pink);
+    // --cm-property-text-color: var(--cyan);
+    // --cm-qualifier-text-color: var(--green);
+    // --cm-selected-color: var(--darkest-ghost);
+    // --cm-string-text-color: var(--yellow);
+    // --cm-tag-text-color: var(--pink);
+    // --cm-variable-1-text-color: var(--green);
+    // --cm-variable-2-text-color: var(--clouds);
+    // --cm-variable-3-text-color: var(--orange);
+}

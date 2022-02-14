@@ -1,12 +1,5 @@
-/* TODO: Convert these to SCSS variables? */
-/*
-==================================================
-GLOBAL VARIABLES
-==================================================
-*/
-
 :root {
-  /* Colors */
+  // Grayscale
   --white: rgba(248,248,242,1);
   --white-hover: rgba(248,248,242,0.50);
   --clouds: rgba(236,240,241,1);
@@ -22,6 +15,8 @@ GLOBAL VARIABLES
   --tar: rgba(33,34,44,1.0);
   --dark-knight: rgba(25,26,33,1.0);
   --darkest-ghost: rgba(255,255,255,0.1);
+
+  // Rainbow
   --cyan: rgba(139,233,253,1.0);
   --cyan-hover: rgba(139,233,253,0.50);
   --turquoise: rgba(26,188,156,1);
@@ -45,25 +40,16 @@ GLOBAL VARIABLES
   --pomegranate: rgba(192,57,43,1);
   --pink: rgba(255,121,198,1.0);
   --pink-hover: rgba(255,121,198,0.50);
-  
-  /* Indentation color palette: cannibalox */
-  --ind-lvl-3-clx: rgba(255,0,0,0.36);
-  --ind-lvl-4-clx: rgba(236,135,34,0.37);
-  --ind-lvl-5-clx: rgba(255,255,0,0.32);
-  --ind-lvl-6-clx: rgba(101,217,91,0.48);
-  --ind-lvl-7-clx: rgba(44,160,223,0.37);
-  --ind-lvl-8-clx: rgba(159,138,240,0.38);
-  --ind-lvl-9-clx: rgba(241,91,247,0.31);
-  
-  /* Indentation color palette: pink */
-  --ind-lvl-3-pink: rgba(252,228,236,1.0);
-  --ind-lvl-4-pink: rgba(248,187,208,1.0);
-  --ind-lvl-5-pink: rgba(244,143,177,1.0);
-  --ind-lvl-6-pink: rgba(240,98,146,1.0);
-  --ind-lvl-7-pink: rgba(236,64,122,1.0);
-  --ind-lvl-8-pink: rgba(233,30,99,1.0);
-  --ind-lvl-9-pink: rgba(216,27,96,1.0);
-  
+
+  // Indentation
+  // --ind-lvl-3-pink: rgba(252,228,236,1.0);
+  // --ind-lvl-4-pink: rgba(248,187,208,1.0);
+  // --ind-lvl-5-pink: rgba(244,143,177,1.0);
+  // --ind-lvl-6-pink: rgba(240,98,146,1.0);
+  // --ind-lvl-7-pink: rgba(236,64,122,1.0);
+  // --ind-lvl-8-pink: rgba(233,30,99,1.0);
+  // --ind-lvl-9-pink: rgba(216,27,96,1.0);
+
   /* Fonts */
   --ls-font-family: "Fira Sans";
   --ls-font-letter-spacing: 0.002em;

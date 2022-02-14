@@ -1,0 +1,104 @@
+@use '../main';
+
+/* TODO: Inline code hard to read */
+/* TODO: Possible? Slideshow slide content is a bit wonky */
+
+/* Light theme-specific variables */
+.white-theme,
+html[data-theme="light"] {
+    /* Base background colors */
+    --ls-primary-background-color: var(--white);
+    --ls-secondary-background-color: var(--white-hover);
+    --ls-tertiary-background-color: var(--clouds);
+    --ls-quaternary-background-color: var(--silver);
+    --ls-quinary-background-color: var(--concrete);
+    
+    /* Element background colors */
+    --ls-a-chosen-bg: var(--silver);
+    --ls-block-properties-background-color: var(--concrete);
+    --ls-page-blockquote-bg-color: var(--concrete);
+    --ls-right-sidebar-code-bg-color: var(--concrete);
+    --ls-scrollbar-background-color: var(--silver);
+    --ls-search-background-color: var(--concrete);
+    --ls-selection-background-color: var(--concrete);
+    --ls-slide-background-color: var(--concrete);
+    --ls-table-tr-even-background-color: var(--concrete);
+    --ls-tag-background-color: var(--wet-asphalt);
+    
+    /* Active colors */
+    --ls-active-primary-color: var(--charcoal);
+    --ls-active-secondary-color: var(--charcoal);
+    
+    /* Border colors */
+    --ls-block-bullet-border-color: var(--gunpowder);
+    --ls-border-color: var(--haze);
+    --ls-page-blockquote-border-color: var(--carrot);
+    --ls-page-checkbox-border-color: var(--haze);
+    --ls-secondary-border-color: var(--haze);
+    
+    /* Element colors */
+    --ls-admonition-icon-color: var(--peter-river);
+    --ls-admonition-icon-caution-color: var(--sunflower);
+    --ls-admonition-icon-warning-color: var(--red);
+    --ls-block-bullet-color: var(--charcoal);
+    --ls-block-highlight-color: var(--gunpowder);
+    --ls-block-ref-link-text-color: var(--silver);
+    --ls-external-link-color: var(--pink);
+    --ls-external-link-hover-color: var(--pink-hover);
+    --ls-guideline-color: var(--ls-border-color);
+    --ls-head-text-color: var(--charcoal);
+    --ls-highlight-text-color: var(--sunflower);
+    --ls-icon-color: var(--white-hover);
+    --ls-italic-text-color: var(--midnight-blue);
+    /* TODO: Do we want ref links and external link colors to match? */
+    --ls-link-ref-text-color: var(--pink);
+    --ls-link-ref-text-hover-color: var(--pink-hover);
+    --ls-link-text-color: var(--pink);
+    --ls-link-text-hover-color: var(--pink-hover);
+    --ls-marker-switch-color: var(--wisteria);
+    --ls-marker-switch-hover-color: var(--amethyst);
+    --ls-menu-hover-color: var(--silver);
+    --ls-page-blockquote-color: var(--white);
+    --ls-page-checkbox-color: var(--haze);
+    --ls-page-inline-code-bg-color: var(--charcoal);
+    --ls-page-inline-code-color: var(--orange);
+    --ls-primary-text-color: var(--charcoal);
+    --ls-scrollbar-foreground-color: var(--asbestos);
+    --ls-scrollbar-thumb-hover-color: var(--concrete);
+    --ls-search-background-color: var(--white-hover);
+    --ls-search-icon-color: var(--white-hover);
+    --ls-secondary-text-color: var(--white-hover);
+    --ls-tag-text-color: var(--white);
+    --ls-tag-text-hover-color: var(--white-hover);
+    --ls-title-text-color: var(--charcoal);
+    
+    /* CodeMirror */
+    --cm-active-line-background-color: var(--haze);
+    --cm-atom-text-color: var(--amethyst);
+    --cm-attribute-text-color: var(--greensea);
+    --cm-background-color: var(--white);
+    --cm-base-text-color: var(--charcoal);
+    --cm-builtin-text-color: var(--greensea);
+    --cm-border-color: var(--haze);
+    --cm-code-lang-background-color: var(--haze);
+    --cm-code-lang-text-color: var(--white);
+    --cm-comment-text-color: var(--asbestos);
+    --cm-cursor-color: var(--red);
+    --cm-def-text-color: var(--greensea);
+    --cm-gutter-background-color: var(--white);
+    --cm-gutter-text-color: var(--charcoal);
+    --cm-keyword-text-color: var(--pomegranate);
+    --cm-line-number-text-color: var(--concrete);
+    --cm-matching-bracket-color: var(--ash);
+    --cm-meta-text-color: var(--charcoal);
+    --cm-number-text-color: var(--amethyst);
+    --cm-operator-text-color: var(--pomegranate);
+    --cm-property-text-color: var(--turquoise);
+    --cm-qualifier-text-color: var(--greensea);
+    --cm-selected-color: var(--clouds);
+    --cm-string-text-color: var(--pumpkin);
+    --cm-tag-text-color: var(--pomegranate);
+    --cm-variable-1-text-color: var(--nephritis);
+    --cm-variable-2-text-color: var(--gunpowder);
+    --cm-variable-3-text-color: var(--carrot);
+}
